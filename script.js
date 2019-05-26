@@ -133,8 +133,6 @@ deleteAll.onclick=function(){
 	}
 	showSelected();
 }
-// var arrowUp=document.getElementById("arrow-up");
-// var arrowDown=document.getElementById("arrow-down");
 
 document.getElementById("arrow-up").onclick=function(){
 	console.log("arrow up")
@@ -145,27 +143,6 @@ document.getElementById("arrow-down").onclick=function(){
 	console.log("arrow down")
 	selectedViewList.style.visibility="hidden";
 }
-
-
-// function arrowChange(){
-// 	// var x=0;
-// 	arrowUp.onclick=function(){
-// 		console.log("up");
-// 		selectedViewList.style.visibility="visible";
-// 		arrowDown.visibility="visible";
-// 		this.visibility="hidden";
-// 	}
-// 	arrowDown.onclick=function(){
-// 		selectedViewList.style.visibility="hidden;";
-// 		arrowDown.visibility="hidden";
-// 		this.visibility="visible";
-// 	}
-
-// }
-
-// arrowChange();
-
-
 
 function cancelSel(){
 	var cancelSelected = selectedViewList.getElementsByTagName("span");
